@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
@@ -13,8 +12,7 @@ import Footer from "./components/Footer.jsx"
 
 
 function App() {
-  // const [count, setCount] = useState(0);
-
+  
   return (
     <div id="container">
       <h1></h1>
