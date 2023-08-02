@@ -1,0 +1,77 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+ body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+} 
+
+#container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: .5em;
+  justify-content: space-evenly;
+}
+#navbar a {
+  font-size: 40px; 
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  padding: 60px 
+}
+
+#navbar a:hover {
+  color: orangered; /* this changes the text once you hover over it */
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.blue {
+  background-color: #275db3;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  background-size: 100% 100%;  
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.home {
+  background-color: yellow;
+  padding: 15px;
+}

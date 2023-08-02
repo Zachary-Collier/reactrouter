@@ -1,0 +1,28 @@
+#root {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 10px;
+  }  
+
+.footer {
+  background-color: gray; 
+  padding: 10px;
+  text-align: right;
+  position: sticky;
+  bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  gap: 1000px;
+  justify-content: right;
+}
+
+
+  
+  
